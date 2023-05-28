@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 600px) {
+    body{
+        background: linear-gradient(
+            to bottom,
+            hsl(331.76, 17.53%, 19.02%) 0%,
+            hsla(329.28, 17.07%, 19.06%, 0.995) 8.6%,
+            hsla(321.41, 15.74%, 19.16%, 0.982) 17.3%,
+            hsla(306.28, 13.63%, 19.32%, 0.96) 26.2%,
+            hsla(284.11, 14.2%, 20.29%, 0.929) 35.1%,
+            hsla(265.61, 15.98%, 21.76%, 0.89) 43.9%,
+            hsla(250.81, 17.59%, 23.4%, 0.843) 52.5%,
+            hsla(238.79, 19.47%, 25.07%, 0.789) 60.7%,
+            hsla(230.49, 24.96%, 26%, 0.727) 68.4%,
+            hsla(225.03, 30.44%, 26.92%, 0.658) 75.6%,
+            hsla(221.1, 35.89%, 27.8%, 0.582) 82.1%,
+            hsla(218.08, 41.38%, 28.63%, 0.5) 87.7%,
+            hsla(215.64, 46.95%, 29.4%, 0.411) 92.5%,
+            hsla(213.57, 52.74%, 30.07%, 0.316) 96.2%,
+            hsla(211.73, 58.91%, 30.62%, 0.216) 98.7%,
+            hsla(210, 65.82%, 30.98%, 0.11) 100%
+          );;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    nav img{
+        height: 59px;
+    }
+    .part0{
+        width: 20%;
+        margin-left: 10%;
+    }
+    .i1{
+        margin-left: 4%;
+        font-size: 20px;
+    
+    }
+    .i3{
+        padding-left: 4%;
+        font-size: 20px;
+    }
+    .ion-icon{
+        display: flex;
+        align-items: center;
+    }
+    .part1{
+        margin-left: -17%;
+    }
+    .part2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: white;
+        height: 10%;
+    }
+    .q1{
+        width: 60px;
+        height: 45px;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+    }
+    .q2{
+        width: 130px;
+        height: 45px;
+        background-color: pink;
+        color: black;
+        border-radius: 30px;
+        border: none;
+    }
+    .q3{
+        width: 130px;
+        height: 45px;
+        background-color: yellow;
+        color: black;
+        border-radius: 30px;
+        border: none;
+    }
+    .q4{
+        width: 100px;
+        height: 45px;
+        background-color: rgb(10, 167, 10);
+        color: white;
+        border-radius: 30px;
+        border: none;
+    }
+    select option{
+        background-color: none;
+        border: none;
+    }
+    .w1:hover{
+        background-color: rgb(12, 182, 12);
+        transition: 1s;
+        height: 60px;
+    }
+    .w1{
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 5%;
+    }
+    .part4{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .e1{
+        font-size: 70px;
+        color: white;
+    }
+    .q1:hover{
+        background: gray;
+        transition: 0.5s;
+        border: none;
+    }
+    .q2:hover{
+        background: palevioletred;
+        transition: 0.5s;
+        border: none;
+    }
+    .q3:hover{
+        background: gold;
+        transition: 0.5s;
+        border: none;
+    }
+    .q4:hover{
+        background: rgb(10, 121, 10);
+        transition: 0.5s;
+        border: none;
+    }
+    .e2{
+        font-size: 25px;
+        color: palevioletred;
+        padding-top: 2%;
+    }
+    .e3{
+        font-size: 25px;
+        color: white;
+        margin-top: 2%;
+        text-decoration: underline;
+    }
+    .e4{
+        margin-top: 2%;
+        width: 500px;
+        height: 48px;
+        border-radius: 30px;
+        border: none;
+        padding-left: 2%;
+        color: gray;
+        font-size: 15px;
+    }
+    .e6{
+        width: 100px;
+        height: 50px;
+        background-color: rgb(11, 151, 11);
+        border: none;
+        color: white;
+        border-radius: 30px;
+        margin-left: -7.5%;
+    }
+}
+@media(max-width: 500px){
+    body{
+        background: linear-gradient(
+            to bottom,
+            hsl(331.76, 17.53%, 19.02%) 0%,
+            hsla(329.28, 17.07%, 19.06%, 0.995) 8.6%,
+            hsla(321.41, 15.74%, 19.16%, 0.982) 17.3%,
+            hsla(306.28, 13.63%, 19.32%, 0.96) 26.2%,
+            hsla(284.11, 14.2%, 20.29%, 0.929) 35.1%,
+            hsla(265.61, 15.98%, 21.76%, 0.89) 43.9%,
+            hsla(250.81, 17.59%, 23.4%, 0.843) 52.5%,
+            hsla(238.79, 19.47%, 25.07%, 0.789) 60.7%,
+            hsla(230.49, 24.96%, 26%, 0.727) 68.4%,
+            hsla(225.03, 30.44%, 26.92%, 0.658) 75.6%,
+            hsla(221.1, 35.89%, 27.8%, 0.582) 82.1%,
+            hsla(218.08, 41.38%, 28.63%, 0.5) 87.7%,
+            hsla(215.64, 46.95%, 29.4%, 0.411) 92.5%,
+            hsla(213.57, 52.74%, 30.07%, 0.316) 96.2%,
+            hsla(211.73, 58.91%, 30.62%, 0.216) 98.7%,
+            hsla(210, 65.82%, 30.98%, 0.11) 100%
+          );;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    nav img{
+        height: 59px;
+    }
+    .part0{
+        width: 20%;
+        margin-left: 10%;
+    }
+    .i1{
+        margin-left: 4%;
+        font-size: 20px;
+    
+    }
+    .i3{
+        padding-left: 4%;
+        font-size: 20px;
+    }
+    .ion-icon{
+        display: flex;
+        align-items: center;
+    }
+    .part1{
+        margin-left: -17%;
+    }
+    .part2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: white;
+        height: 10%;
+    }
+    .q1{
+        width: 60px;
+        height: 45px;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+    }
+    .q2{
+        width: 130px;
+        height: 45px;
+        background-color: pink;
+        color: black;
+        border-radius: 30px;
+        border: none;
+    }
+    .q3{
+        width: 130px;
+        height: 45px;
+        background-color: yellow;
+        color: black;
+        border-radius: 30px;
+        border: none;
+    }
+    .q4{
+        width: 100px;
+        height: 45px;
+        background-color: rgb(10, 167, 10);
+        color: white;
+        border-radius: 30px;
+        border: none;
+    }
+    select option{
+        background-color: none;
+        border: none;
+    }
+    .w1:hover{
+        background-color: rgb(12, 182, 12);
+        transition: 1s;
+        height: 60px;
+    }
+    .w1{
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 5%;
+    }
+    .part4{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .e1{
+        font-size: 70px;
+        color: white;
+    }
+    .q1:hover{
+        background: gray;
+        transition: 0.5s;
+        border: none;
+    }
+    .q2:hover{
+        background: palevioletred;
+        transition: 0.5s;
+        border: none;
+    }
+    .q3:hover{
+        background: gold;
+        transition: 0.5s;
+        border: none;
+    }
+    .q4:hover{
+        background: rgb(10, 121, 10);
+        transition: 0.5s;
+        border: none;
+    }
+    .e2{
+        font-size: 25px;
+        color: palevioletred;
+        padding-top: 2%;
+    }
+    .e3{
+        font-size: 25px;
+        color: white;
+        margin-top: 2%;
+        text-decoration: underline;
+    }
+    .e4{
+        margin-top: 2%;
+        width: 500px;
+        height: 48px;
+        border-radius: 30px;
+        border: none;
+        padding-left: 2%;
+        color: gray;
+        font-size: 15px;
+    }
+    .e6{
+        width: 100px;
+        height: 50px;
+        background-color: rgb(11, 151, 11);
+        border: none;
+        color: white;
+        border-radius: 30px;
+        margin-left: -7.5%;
+    }
+}
